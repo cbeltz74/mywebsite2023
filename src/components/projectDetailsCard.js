@@ -2,7 +2,7 @@ import "./projectSummaryCard.css";
 
 import React from 'react'
 
-export const projectDetailsCard = () => {
+export const ProjectDetailsCard = () => {
   return (
     <div>projectDetailsCard</div>
   )

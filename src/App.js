@@ -1,6 +1,5 @@
-import { Header, Footer } from './components';
-import { projectSummaryList } from './components';
-import { HomePage } from './pages';
+import { Header, Footer, ProjectDetailsList } from './components';
+import { HomePage, ResumeNew } from './pages';
 import './App.css';
 
 function App() {
@@ -8,7 +7,8 @@ function App() {
     <main className="App">
       <Header />
       <HomePage />
-      <projectSummaryList />
+      <ProjectDetailsList />
+      <ResumeNew />
       <Footer />
     </main>
   );

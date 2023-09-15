@@ -1,17 +1,20 @@
-
 import { Link } from "react-router-dom";
+import Cinemate from "../assets/Cinemate.png";
+import BaseballCard from "../assets/Covering The Bases home.png";
+import TopTwins from "../assets/Covering The Bases Top Twins.png";
+import Taxpayer from "../assets/taxpayer-form.png";
 
 import "./projectSummaryCard.css";
 
 
-export const projectDetailsList = () => {
+export const ProjectDetailsList = () => {
   return (
     
 <div class="container1" id="projects">
 
 <article class="story">
     <div class="story-image">
-        <Link to="/"><img src="images/Cinemate.png" class="story-image" alt="Project Screenshot" /></Link>
+        <Link to="/"><img src={Cinemate} class="story-image" alt="Project Screenshot" /></Link>
     </div>
             <div class="story-text">
                 <h2>Movie Viewer</h2>
@@ -29,7 +32,7 @@ export const projectDetailsList = () => {
 
 <article class="story">
     <div class="story-image">
-    <Link to="/"><img src="images/Cinemate.png" class="story-image" alt="Project Screenshot" /></Link>
+    <Link to="/"><img src={Taxpayer} class="story-image" alt="Project Screenshot" /></Link>
     </div>
             <div class="story-text">
                 <h2>Web Form</h2>
@@ -45,7 +48,7 @@ export const projectDetailsList = () => {
 
 <article class="story">
     <div class="story-image">
-        <Link to="/"><img src="images/Cinemate.png" class="story-image" alt="Project Screenshot" /></Link>
+        <Link to="/"><img src={BaseballCard} class="story-image" alt="Project Screenshot" /></Link>
     </div>
         <div class="story-text">
             <h2>Baseball Card Collection website</h2>
@@ -60,32 +63,15 @@ export const projectDetailsList = () => {
 </article>
 
 
-<article class="story">
-    <div class="story-image">
-        <Link to="/"><img src="images/Cinemate.png" class="story-image" alt="Project Screenshot" /></Link>
-    </div>
-    <div class="story-text">
-        <h2>Dog App</h2>
-            <p>Followed along with example in Frontend Masters online bootcamp to create a website where the user
-                can select a breed of dog and see a picture of that dog. There is an animation that spins in a circle
-                while the image is retrieved from the <Link to="https://dog.ceo">Dog CEO</Link> website.
-            </p>
-            <ul class="technologies">
-                <Link to="https://github.com/cbeltz74/cbeltz74.github.io/tree/master/DogApp"><li class="gh"><i class="fab fa-github"></i>See code on Github</li></Link>
-                <li class="html5"><i class="fab fa-html5"></i>Forms, images</li>
-                <li class="css3"><i class="fab fa-css3-alt"></i>Keyframes animation</li>
-                <li class="js"><i class="fab fa-js-square"></i>API request from Dog Ceo website</li>
-            </ul>
-        </div>
-</article>
+
 
 
 <article class="story">
     <div class="story-image">
-        <Link to="/"><img src="images/Cinemate.png" class="story-image" alt="Project Screenshot" /></Link>
+        <Link to="/"><img src={TopTwins} class="story-image" alt="Project Screenshot" /></Link>
     </div>
     <div class="story-text">
-        <h2>Personal website</h2>
+        <h2>Twins on Topps</h2>
             <p>Another bootcamp assignment was to create a personal website. The goal was to include pages for hobbies, projects as well as create photo gallery and a contact form. The photo gallery on the home page is based on that assignment.</p>
             <ul class="technologies">
                 <Link to="https://github.com/cbeltz74/cbeltz74.github.io/tree/master/MyWebsite"><li class="gh"><i class="fab fa-github"></i>See code on Github</li></Link>

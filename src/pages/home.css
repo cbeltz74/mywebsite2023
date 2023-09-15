@@ -1,0 +1,12 @@
+.home-main {
+    font-size:5.5vw;
+    /* padding-top: 10vh; */
+}
+
+@media only screen and (min-width: 900px) {
+    .home-main {
+        font-size:5.5vw;
+        text-align:center;
+        /* margin-top:-5rem; */
+    }
+}
