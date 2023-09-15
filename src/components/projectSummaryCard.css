@@ -1,0 +1,76 @@
+
+
+/* PROJECTS */
+
+.story {
+    padding:0 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    margin:0 auto;
+    justify-content: center;
+    width:80%;
+  }
+  
+  
+  .story-image {
+    margin-top:0.5rem;
+    width:20vw;
+    object-fit: cover;
+    border:none;
+  }
+  
+  .story-image:hover {
+  
+  }
+  
+  .story-text {
+    padding-left:1rem;
+  }
+  
+  .story h2 {
+    margin-bottom:1vh;
+    font-size:4vw;
+    font-weight: 100;
+  }
+  
+  span {
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  .technologies {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin:0.5rem 0;
+  }
+  
+  .technologies li {
+    margin-left:1rem;
+    list-style-type: none;    
+  }
+  
+  .technologies a {
+    text-decoration: none;
+  }
+  
+  
+  .js {
+    color: var(--js-color)
+  }
+  
+  .html5 {
+    color: var(--html5-color)
+  }
+  
+  .css3 {
+    color: var(--css3-color)
+  }
+  
+  .mission {
+    font-size:1rem;
+  }
