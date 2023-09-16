@@ -1,5 +1,8 @@
 .home-main {
     font-size:5.5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     /* padding-top: 10vh; */
 }
 

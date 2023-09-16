@@ -1,14 +1,12 @@
-import { Header, Footer, ProjectDetailsList } from './components';
-import { HomePage, ResumeNew } from './pages';
+import { AllRoutes } from './routes/AllRoutes';
+import { Header, Footer } from './components';
 import './App.css';
 
 function App() {
   return (
     <main className="App">
       <Header />
-      <HomePage />
-      <ProjectDetailsList />
-      <ResumeNew />
+      <AllRoutes />
       <Footer />
     </main>
   );

@@ -7,12 +7,12 @@ export const Header = () => {
     <header>
         <nav class="navigation">
             <ul class="left-nav">
-                <NavLink to="/"><li class="nav-name nav-name-home" id="#home">Colin Beltz</li></NavLink>
+                <Link to="/"><li class="nav-name nav-name-home" id="#home">Colin Beltz</li></Link>
             </ul>
 
             <ul class="right-nav">   
-                <Link to="/projects"><li>Projects</li></Link>
-                <Link to="/ResumeNew"><li>Resume</li></Link>
+                <NavLink to="/projects"><li>Projects</li></NavLink>
+                <NavLink to="/resume"><li>Resume</li></NavLink>
             </ul>
         </nav>
     </header>

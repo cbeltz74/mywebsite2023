@@ -1,4 +1,7 @@
 footer {
-    text-align: center;
+  margin-top:2vh;
+  padding-top:1vh;
+  text-align: center;
+  border-top:1px solid black;
   }
   
